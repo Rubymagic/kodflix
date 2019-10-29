@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import favoritemoviecover from './blood-diamond-2.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={favoritemoviecover} className="App-logo" alt="cover" />
         <p>
           Welcome to Kodflix!!!
         </p>
@@ -16,7 +16,6 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
       </header>
     </div>
