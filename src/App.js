@@ -7,6 +7,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={favoritemoviecover} className="App-logo" alt="cover" />
+        <br></br>
+        <div className='container'>
+          <div className='item' style={{flex: 1}}><h1>Black Mirror</h1></div>
+          <div className='item' style={{flex: 1}}><h1>Breaking Bad</h1></div>
+          <div className='item' style={{flex: 1}}><h1>Death Note</h1></div>
+        </div>
+        <div className='container'>  
+          <div className='item' style={{flex: 1}}><h1>Game of Thrones</h1></div>
+          <div className='item' style={{flex: 1}}><h1>The Walking Dead</h1></div>
+          <div className='item' style={{flex: 1}}><h1>The Wire</h1></div>
+        </div>
         <p>
           Welcome to Kodflix!!!
         </p>
