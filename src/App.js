@@ -13,14 +13,38 @@ function App() {
       <header className="App-header">
         <br></br>
         <div className='container'>
-          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover1} className="App-logo" alt="cover" /></h1></div>
-          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover2} className="App-logo" alt="cover" /></h1></div>
-          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover3} className="App-logo" alt="cover" /></h1></div>
+          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover1} className="App-logo" alt="cover" /></h1>
+            <div className='overlay'>
+              <h1>Black Mirror</h1>
+            </div>
+          </div>
+          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover2} className="App-logo" alt="cover" /></h1>
+            <div className='overlay'>
+              <h1>Breaking Bad</h1>
+            </div>
+          </div>
+          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover3} className="App-logo" alt="cover" /></h1>
+            <div className='overlay'>
+              <h1>Death Note</h1>
+            </div>
+          </div>
         </div>
         <div className='container'>  
-          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover4} className="App-logo" alt="cover" /></h1></div>
-          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover5} className="App-logo" alt="cover" /></h1></div>
-          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover6} className="App-logo" alt="cover" /></h1></div>
+          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover4} className="App-logo" alt="cover" /></h1>
+            <div className='overlay'>
+              <h1>Game of Thrones</h1>
+            </div>
+          </div>
+          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover5} className="App-logo" alt="cover" /></h1>
+            <div className='overlay'>
+              <h1>The Wire</h1>
+            </div>
+          </div>
+          <div className='item' style={{flex: 1}}><h1><img src={favoritemoviecover6} className="App-logo" alt="cover" /></h1>
+            <div className='overlay'>
+              <h1>Walking Dead</h1>
+            </div>
+          </div>
         </div>
 
         <a
