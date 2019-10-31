@@ -26,3 +26,9 @@ h1 {
 .App-link {
   color: #09d3ac;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+}
